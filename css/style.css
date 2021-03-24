@@ -1,0 +1,31 @@
+body{
+    width: 100%;
+    background-color: azure;
+    font-style: 'PT Sans', sans-serif, 14px;
+}
+
+/*HEADER*/
+.header, .header_company_logo, .header980px, .header_contacts{
+    display: flex;
+}
+.header{
+    width: 100%;
+    background-color: #dcdcdc;
+    height: 230px;
+    justify-content: center;
+}
+.header_logo{
+    height: 100px;
+    width: 100px;
+    background-color: #767676;
+}
+
+.header980px{
+    width: 980px;
+    align-items: center;
+}
+
+.header_contacts{
+    flex-direction: column;
+    margin-left: auto;
+}
